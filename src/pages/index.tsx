@@ -26,6 +26,10 @@ const Index = () => {
         JomaiはあなたのコンピューターにあるMarkdownドキュメントをインデックス化し検索可能にします。ひとたびインデックス化されれば、Jomaiの最適化された検索機能によりドキュメントを簡単に見つけられるようになります。もうドキュメントを置く場所に悩むことはありません。とにかく書いて、必要になったら検索してさっと<span
         role='img' aria-label='zap'>⚡️</span>見つけられます。
       </p>
+        <img
+            src={`${router.basePath}/assets/images/screenshot-main-light-ja.png`}
+            alt="Nextjs starter banner"
+        />
       <h2 className='text-lg font-semibold'>Jomaiの特徴</h2>
       <ul>
         <li>
@@ -42,7 +46,7 @@ const Index = () => {
         </li>
         <li>
             <span role='img' aria-label='hammer_and_wrench'>🛠</span>{' '}
-            ファイルの内容から使われている言語を推測して、その言語に最適な方法でインデックス化します (現在のバージョンでは英語と日本語に対応しています。対応言語を追加予定です)
+            ファイルの内容から使われている言語を推測して、その言語に最適な方法でインデックス化します (現在のバージョンでは英語と日本語に対応しています)
         </li>
         <li>
             <span role='img' aria-label='snake'>🐍</span>{' '}
