@@ -32,11 +32,8 @@ const Main = (props: IMainProps) => (
       <div className="content py-5 text-xl">{props.children}</div>
 
       <div className="border-t border-gray-300 py-8 text-center text-sm">
-        © Copyright {new Date().getFullYear()} {props.title}. Powered with{' '}
-        <span role="img" aria-label="Love">
-          ♥
-        </span>{' '}
-        by <a href="https://creativedesignsguru.com">CreativeDesignsGuru</a>
+        © Copyright {new Date().getFullYear()} {props.title}. Developed by{' '}
+        <a href="https://twitter.com/akr">@akr</a>
       </div>
     </div>
   </div>
