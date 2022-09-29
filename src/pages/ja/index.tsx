@@ -116,7 +116,7 @@ const Index = () => {
         <li>
           <a
             onClick={() => handleDownloadClick('mac-apple')}
-            href="https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/Jomai_0.1.0_aarch64.dmg"
+            href="https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/v0.1.0/Jomai_0.1.0_aarch64.dmg"
           >
             <span role="img" aria-label="pizza">
               🍕
@@ -127,7 +127,7 @@ const Index = () => {
         <li>
           <a
             onClick={() => handleDownloadClick('mac-intel')}
-            href="https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/Jomai_0.1.0_x64.dmg"
+            href="https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/v0.1.0/Jomai_0.1.0_x64.dmg"
           >
             <span role="img" aria-label="pancake">
               🥞

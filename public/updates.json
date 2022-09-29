@@ -1,0 +1,14 @@
+{
+  "version": "v0.2.0",
+  "pub_date": "2020-09-29T14:00:00Z",
+  "platforms": {
+    "darwin-x86_64": {
+      "signature": "",
+      "url": "https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/v0.2.0/Jomai_0.2.0_aarch64.dmg"
+    },
+    "darwin-aarch64": {
+      "signature": "",
+      "url": "https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/v0.2.0/Jomai_0.2.0_x64.dmg"
+    }
+  }
+}
