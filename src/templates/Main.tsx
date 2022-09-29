@@ -23,9 +23,7 @@ const Main = (props: IMainProps) => (
 
       <div className="content py-5 text-xl">{props.children}</div>
 
- <div className="border-t border-gray-300 py-8 text-center text-sm">
-     
-</div>
+      <div className="border-t border-gray-300 py-8 text-center text-sm"></div>
       <div className="border-t border-gray-300 py-8 text-center text-sm">
         © Copyright {new Date().getFullYear()} {AppConfig.title}. Powered with{' '}
         <span role="img" aria-label="Love">
