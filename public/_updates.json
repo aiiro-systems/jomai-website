@@ -1,0 +1,15 @@
+{
+  "version": "v0.2.0",
+  "notes": "bug fixes",
+  "pub_date": "2022-09-29T14:00:00Z",
+  "platforms": {
+    "darwin-x86_64": {
+      "signature": "",
+      "url": "https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/v0.2.0/Jomai_0.2.0_x64.app.tar.gz"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVjhZdGhXZEc3T3hETVpWN3B5dU1nemwxa2dacVF1Q2dLUEk1TGM2TGxEa25OQTVMVmQ3UityYTZYNkVkckxtU2xWQlJjSjNVM0g1OEN2N3ZuOWxkVzhPa0hhQ2ZjcVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjY0NDU4ODQ1CWZpbGU6Sm9tYWkuYXBwLnRhci5negorckpsTmJsOEJFVnBuRXJtZ1d0QnF3L253a0NoOHNBODhHVUtsVlh4eWdVNU92OFdTUHhpK3puWlFOSkVyOC9xSlNQUWFOWXJGQUlVSmNNWkJIaURDZz09Cg==",
+      "url": "https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/v0.2.0/Jomai_0.2.0_aarch64.app.tar.gz"
+    }
+  }
+}

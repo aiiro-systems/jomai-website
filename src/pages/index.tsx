@@ -50,6 +50,14 @@ const Index = () => {
           Jomai is a desktop search system specialized for Markdown files.
         </li>
         <li>
+          <span role="img" aria-label="flower">
+            🌸
+          </span>{' '}
+          Jomai does not transmit your data externally. Everything is handled
+          within your computer. (except for checking and downloading new
+          versions)
+        </li>
+        <li>
           <span role="img" aria-label="pencil2">
             ✏️
           </span>{' '}

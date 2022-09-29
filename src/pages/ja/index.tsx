@@ -46,6 +46,12 @@ const Index = () => {
           JomaiはMarkdownファイルに特化したデスクトップサーチシステムです
         </li>
         <li>
+          <span role="img" aria-label="flower">
+            🌸
+          </span>{' '}
+          Jomaiはあなたのデータを外部に送信しません。あなたのコンピューター内ですべて処理します。(新しいバージョンの確認とダウンロードは除く)
+        </li>
+        <li>
           <span role="img" aria-label="pencil2">
             ✏️
           </span>{' '}
