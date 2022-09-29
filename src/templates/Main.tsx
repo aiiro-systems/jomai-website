@@ -1,5 +1,5 @@
-import type { ReactNode } from 'react';
 import Link from 'next/link';
+import type { ReactNode } from 'react';
 
 type IMainProps = {
   meta: ReactNode;
@@ -13,7 +13,7 @@ const Main = (props: IMainProps) => (
     {props.meta}
 
     <div className="mx-auto max-w-screen-md">
-      <header className="pt-8 flex justify-end gap-4">
+      <header className="flex justify-end gap-4 pt-8">
         <Link href="/en">
           <a>English</a>
         </Link>
@@ -23,7 +23,7 @@ const Main = (props: IMainProps) => (
       </header>
 
       <div className="border-b border-gray-300">
-        <div className="pt-8 pb-8">
+        <div className="py-8">
           <div className="text-3xl font-bold text-gray-900">{props.title}</div>
           <div className="text-xl">{props.description}</div>
         </div>

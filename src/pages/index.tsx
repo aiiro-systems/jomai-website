@@ -2,8 +2,8 @@ import { useRouter } from 'next/router';
 
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
-import { useLocale } from '@/utils/useLocale';
 import { useGoogleAnalytics } from '@/utils/GoogleAnalytics';
+import { useLocale } from '@/utils/useLocale';
 
 const Index = () => {
   const router = useRouter();

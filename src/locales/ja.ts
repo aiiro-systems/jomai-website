@@ -1,4 +1,4 @@
-export default {
+export const texts = {
   title: 'Jomai',
   description:
     'Jomai(ジョーマイ)はMarkdownファイルに特化したデスクトップサーチシステムです',
@@ -42,3 +42,5 @@ export default {
     send: '送信',
   },
 };
+
+export default texts;
