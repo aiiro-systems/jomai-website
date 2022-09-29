@@ -107,8 +107,16 @@ const Index = () => {
       </ul>
       <h2 className="text-lg font-semibold">ダウンロード</h2>
       <ul>
-        <li>macOS (Appleシリコン)</li>
-        <li>macOS (Intel)</li>
+        <li>
+            <a href="https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/Jomai_0.1.0_aarch64.dmg">
+                macOS (Appleシリコン) v0.1.0 ベータ版
+            </a>
+        </li>
+        <li>
+            <a href="https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/Jomai_0.1.0_x64.dmg">
+                macOS (Intel) v0.1.0 ベータ版
+            </a>
+        </li>
       </ul>
       <p className="text-sm">
         ※
