@@ -3,10 +3,16 @@ import { useRouter } from 'next/router';
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 import { useLocale } from '@/utils/useLocale';
+import { useGoogleAnalytics } from '@/utils/GoogleAnalytics';
 
 const Index = () => {
   const router = useRouter();
   const { t } = useLocale();
+  const { event } = useGoogleAnalytics();
+
+  const handleDownloadClick = (binaryType: string) => {
+    event('download_click', 'download', binaryType, '1');
+  };
 
   return (
     <Main
@@ -103,23 +109,35 @@ const Index = () => {
       <h2 className="text-lg font-semibold">{t.downloads.title}</h2>
       <ul>
         <li>
-          <a href="https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/Jomai_0.1.0_aarch64.dmg">
+          <a
+            onClick={() => handleDownloadClick('mac-apple')}
+            href="https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/Jomai_0.1.0_aarch64.dmg"
+          >
+            <span role="img" aria-label="pizza">
+              🍕
+            </span>{' '}
             {t.downloads.macOsAppleSilicon}
           </a>
         </li>
         <li>
-          <a href="https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/Jomai_0.1.0_x64.dmg">
+          <a
+            onClick={() => handleDownloadClick('mac-intel')}
+            href="https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/Jomai_0.1.0_x64.dmg"
+          >
+            <span role="img" aria-label="pancake">
+              🥞
+            </span>{' '}
             {t.downloads.macOsIntel}
           </a>
         </li>
       </ul>
       <p className="text-sm">{t.downloads.note}</p>
 
-      <section className="bg-white border-t border-gray-300 py-8">
+      <section className="border-t border-gray-300 bg-white py-8">
         <h2 className="text-lg font-semibold">{t.contact.title}</h2>
         <form
           action="#"
-          className="pt-4 space-y-8"
+          className="space-y-8 pt-4"
           name="contact"
           method="POST"
           data-netlify="true"
@@ -128,14 +146,14 @@ const Index = () => {
           <div>
             <label
               htmlFor="email"
-              className="block mb-2 text-sm font-medium text-gray-900"
+              className="mb-2 block text-sm font-medium text-gray-900"
             >
               {t.contact.email}
             </label>
             <input
               type="email"
               name="email"
-              className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+              className="focus:ring-primary-500 focus:border-primary-500 block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 shadow-sm"
               placeholder="name@flowbite.com"
               required
             />
@@ -143,20 +161,20 @@ const Index = () => {
           <div className="sm:col-span-2">
             <label
               htmlFor="message"
-              className="block mb-2 text-sm font-medium text-gray-900"
+              className="mb-2 block text-sm font-medium text-gray-900"
             >
               {t.contact.message}
             </label>
             <textarea
               name="message"
               rows={6}
-              className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500"
+              className="focus:ring-primary-500 focus:border-primary-500 block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 shadow-sm"
               placeholder="Leave a comment..."
             ></textarea>
           </div>
           <button
             type="submit"
-            className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-gray-600 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300"
+            className="hover:bg-primary-800 focus:ring-primary-300 rounded-lg bg-gray-600 py-3 px-5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 sm:w-fit"
           >
             {t.contact.send}
           </button>

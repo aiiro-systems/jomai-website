@@ -1,7 +1,7 @@
 export const AppConfig = {
-  site_name: 'Jomaiアプリ',
+  site_name: 'Jomai',
   title: 'Jomai App',
   description:
     'Jomai is a desktop search system specialized for Markdown files',
-  locale: 'ja',
+  locale: 'en',
 };
