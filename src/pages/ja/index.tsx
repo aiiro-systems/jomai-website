@@ -2,121 +2,129 @@ import { useRouter } from 'next/router';
 
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
-import { useLocale } from '@/utils/useLocale';
+import { AppConfig } from '@/utils/AppConfig';
 
 const Index = () => {
   const router = useRouter();
-  const { t } = useLocale();
 
   return (
     <Main
-      meta={<Meta title={t.title} description={t.description} />}
-      title={t.title}
-      description={t.description}
+      meta={
+        <Meta
+          title="Jomai (ジョーマイ) アプリ"
+          description={AppConfig.description}
+        />
+      }
     >
-      <h1 className="text-2xl font-bold">{t.overview.title}</h1>
+      <h1 className="text-2xl font-bold">Markdownファイルを瞬時に検索</h1>
       <p>
         <span role="img" aria-label="rocket">
           🚀
         </span>{' '}
-        {t.overview.description}
+        JomaiはあなたのコンピューターにあるMarkdownドキュメントをインデックス化し検索可能にします。ひとたびインデックス化されれば、Jomaiの最適化された検索機能によりドキュメントを簡単に見つけられるようになります。もうドキュメントを置く場所に悩むことはありません。とにかく書いて、必要になったら検索してさっと
         <span role="img" aria-label="zap">
           ⚡️
         </span>
+        見つけられます。
       </p>
       <img
-        src={`${router.basePath}/assets/images/${t.overview.image1}`}
-        alt="Jomai screenshot"
+        src={`${router.basePath}/assets/images/screenshot-main-light-ja.png`}
+        alt="Nextjs starter banner"
       />
-      <h2 className="text-lg font-semibold">{t.features.title}</h2>
+      <h2 className="text-lg font-semibold">Jomaiの特徴</h2>
       <ul>
         <li>
           <span role="img" aria-label="rocket">
             🚀
           </span>{' '}
-          {t.features.item1}
+          JomaiはMarkdownファイルに特化したデスクトップサーチシステムです
         </li>
         <li>
           <span role="img" aria-label="pencil2">
             ✏️
           </span>{' '}
-          {t.features.item2}
+          ローカルディスクにあるファイルをインデックス化して検索可能にします
         </li>
         <li>
           <span role="img" aria-label="nail_care">
             💅
           </span>{' '}
-          {t.features.item3}
+          ファイル名はもちろん、内容、frontmatter を使ってファイルを見つけます
         </li>
         <li>
           <span role="img" aria-label="hammer_and_wrench">
             🛠
           </span>{' '}
-          {t.features.item4}
+          ファイルの内容から使われている言語を推測して、その言語に最適な方法でインデックス化します
+          (現在のバージョンでは英語と日本語に対応しています)
         </li>
         <li>
           <span role="img" aria-label="snake">
             🐍
           </span>{' '}
-          {t.features.item5}
+          ドキュメントをローカルディスクのどこに置いても、捕捉して検索可能にします
+          (監視対象パスを事前に設定しておく必要があります)
         </li>
         <li>
           <span role="img" aria-label="art">
             🎨
           </span>{' '}
-          {t.features.item6}
+          プロジェクトフォルダーや他の関係のあるファイルのそばにドキュメントを置いてください。どこに置いたか覚えておく必要はありません。検索して簡単に見つけられます
         </li>
         <li>
           <span role="img" aria-label="fox_face">
             🦊
           </span>{' '}
-          {t.features.item7}
+          見つけたファイルはお好きなエディターで開いてください
         </li>
       </ul>
-      <h2 className="text-lg font-semibold">{t.futurePlans.title}</h2>
+      <h2 className="text-lg font-semibold">将来の開発予定</h2>
       <ul>
         <li>
           <span role="img" aria-label="languages">
             🔤
           </span>{' '}
-          {t.futurePlans.moreLanguageSupport}
+          対応言語の追加
         </li>
         <li>
           <span role="img" aria-label="documents">
             📑
           </span>{' '}
-          {t.futurePlans.moreFileTypeSupport}
+          Markdown以外のファイル形式に対応
         </li>
         <li>
           <span role="img" aria-label="computer">
             💻
           </span>{' '}
-          {t.futurePlans.morePlatformSupport}
+          Windows版、Linux版の提供
         </li>
         <li>
           <span role="img" aria-label="terminal">
             🖥
           </span>{' '}
-          {t.futurePlans.cliSupport}
+          CLI(コマンドラインインターフェース)の提供
         </li>
       </ul>
-      <h2 className="text-lg font-semibold">{t.downloads.title}</h2>
+      <h2 className="text-lg font-semibold">ダウンロード</h2>
       <ul>
         <li>
           <a href="https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/Jomai_0.1.0_aarch64.dmg">
-            {t.downloads.macOsAppleSilicon}
+            macOS (Appleシリコン) v0.1.0 ベータ版
           </a>
         </li>
         <li>
           <a href="https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/Jomai_0.1.0_x64.dmg">
-            {t.downloads.macOsIntel}
+            macOS (Intel) v0.1.0 ベータ版
           </a>
         </li>
       </ul>
-      <p className="text-sm">{t.downloads.note}</p>
+      <p className="text-sm">
+        ※
+        ベータ版につき約30日間の使用期限があります。新しいバージョンをインストールすると期限が延長されます。
+      </p>
 
       <section className="bg-white border-t border-gray-300 py-8">
-        <h2 className="text-lg font-semibold">{t.contact.title}</h2>
+        <h2 className="text-lg font-semibold">お問合せ</h2>
         <form
           action="#"
           className="pt-4 space-y-8"
@@ -130,7 +138,7 @@ const Index = () => {
               htmlFor="email"
               className="block mb-2 text-sm font-medium text-gray-900"
             >
-              {t.contact.email}
+              メールアドレス
             </label>
             <input
               type="email"
@@ -145,7 +153,7 @@ const Index = () => {
               htmlFor="message"
               className="block mb-2 text-sm font-medium text-gray-900"
             >
-              {t.contact.message}
+              メッセージ
             </label>
             <textarea
               name="message"
@@ -158,7 +166,7 @@ const Index = () => {
             type="submit"
             className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-gray-600 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300"
           >
-            {t.contact.send}
+            送信
           </button>
         </form>
       </section>
