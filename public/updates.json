@@ -1,5 +1,6 @@
 {
   "version": "v0.2.0",
+  "notes": "bug fixes",
   "pub_date": "2020-09-29T14:00:00Z",
   "platforms": {
     "darwin-x86_64": {
