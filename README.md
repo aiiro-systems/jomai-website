@@ -10,8 +10,10 @@
 
 ### ## リリースビルド
 
-```shell
-npm run build-prod
-```
+`next export` は i18n 機能と一緒に利用できない。そこで各言語ごとのページをテンプレートから生成することにした。
 
+```shell
+pnpx hbs-cli -D templates/locales/en.json templates/index.tsx.hbs; mv index.tsx.html src/pages/index.tsx
+pnpx hbs-cli -D templates/locales/ja.json templates/index.tsx.hbs; mv index.tsx.html src/pages/ja/index.tsx
+```
 

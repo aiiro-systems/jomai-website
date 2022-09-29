@@ -14,7 +14,7 @@ const Main = (props: IMainProps) => (
 
     <div className="mx-auto max-w-screen-md">
       <header className="flex justify-end gap-4 pt-8">
-        <Link href="/en">
+        <Link href="/">
           <a>English</a>
         </Link>
         <Link href="/ja">

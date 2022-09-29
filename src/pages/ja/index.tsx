@@ -17,22 +17,18 @@ const Index = () => {
       meta={
         <Meta
           title="Jomai"
-          description="Jomai is a desktop search system specialized for Markdown files"
+          description="Jomai(ジョーマイ)はMarkdownファイルに特化したデスクトップサーチシステムです"
         />
       }
       title="Jomai"
-      description="Jomai is a desktop search system specialized for Markdown files"
+      description="Jomai(ジョーマイ)はMarkdownファイルに特化したデスクトップサーチシステムです"
     >
-      <h1 className="text-2xl font-bold">Instantly search Markdown files</h1>
+      <h1 className="text-2xl font-bold">Markdownファイルを瞬時に検索</h1>
       <p>
         <span role="img" aria-label="rocket">
           🚀
         </span>{' '}
-        Jomai indexes and makes searchable the Markdown documents on your
-        computer. Once indexed, Jomai&#x27;s optimized search function makes it
-        easy to find your documents. No more worrying about where to put your
-        documents. Just write it down, and you can quickly search and find it
-        when you need it.
+        JomaiはあなたのコンピューターにあるMarkdownドキュメントをインデックス化し検索可能にします。ひとたびインデックス化されれば、Jomaiの最適化された検索機能によりドキュメントを簡単に見つけられるようになります。もうドキュメントを置く場所に悩むことはありません。とにかく書いて、必要になったら検索してさっと見つけられます。
         <span role="img" aria-label="zap">
           ⚡️
         </span>
@@ -41,84 +37,81 @@ const Index = () => {
         src={`${router.basePath}/assets/images/screenshot-main-light-ja.png`}
         alt="Jomai screenshot"
       />
-      <h2 className="text-lg font-semibold">Features</h2>
+      <h2 className="text-lg font-semibold">Jomaiの特徴</h2>
       <ul>
         <li>
           <span role="img" aria-label="rocket">
             🚀
           </span>{' '}
-          Jomai is a desktop search system specialized for Markdown files.
+          JomaiはMarkdownファイルに特化したデスクトップサーチシステムです
         </li>
         <li>
           <span role="img" aria-label="pencil2">
             ✏️
           </span>{' '}
-          Indexes and makes searchable files on local disk.
+          ローカルディスクにあるファイルをインデックス化して検索可能にします
         </li>
         <li>
           <span role="img" aria-label="nail_care">
             💅
           </span>{' '}
-          Finds the file using the file name and the content, frontmatter.
+          ファイル名はもちろん、内容、frontmatter を使ってファイルを見つけます
         </li>
         <li>
           <span role="img" aria-label="hammer_and_wrench">
             🛠
           </span>{' '}
-          Guesses the language used from the file content and indexes it best
-          for that language (English and Japanese are supported in the current
-          version).
+          ファイルの内容から使われている言語を推測して、その言語に最適な方法でインデックス化します
+          (現在のバージョンでは英語と日本語に対応しています)
         </li>
         <li>
           <span role="img" aria-label="snake">
             🐍
           </span>{' '}
-          Captures and makes documents searchable anywhere on the local disk
-          (requires preconfigured monitored paths).
+          ドキュメントをローカルディスクのどこに置いても、捕捉して検索可能にします
+          (監視対象パスを事前に設定しておく必要があります)
         </li>
         <li>
           <span role="img" aria-label="art">
             🎨
           </span>{' '}
-          Place the document near your project folder or other related files.
-          There is no need to remember where you put them. You can easily find
-          them by searching.
+          プロジェクトフォルダーや他の関係のあるファイルのそばにドキュメントを置いてください。どこに置いたか覚えておく必要はありません。検索して簡単に見つけられます
         </li>
         <li>
           <span role="img" aria-label="fox_face">
             🦊
           </span>{' '}
-          Open the file you found in your favorite editor.
+          見つけたファイルはお好きなエディターで開いてください
         </li>
       </ul>
-      <h2 className="text-lg font-semibold">Future development plans</h2>
+      <h2 className="text-lg font-semibold">将来の開発予定</h2>
       <ul>
         <li>
           <span role="img" aria-label="languages">
             🔤
           </span>{' '}
-          More supported languages
+          対応言語の追加
         </li>
         <li>
           <span role="img" aria-label="documents">
             📑
           </span>{' '}
-          More file types
+          Markdown以外のファイル形式に対応
         </li>
         <li>
           <span role="img" aria-label="computer">
             💻
           </span>{' '}
-          Windows and Linux
+          Windows版、Linux版の提供
         </li>
         <li>
           <span role="img" aria-label="terminal">
             🖥
           </span>{' '}
-          CLI (command line interface)
+          CLI(コマンドラインインターフェース)の提供
         </li>
       </ul>
-      <h2 className="text-lg font-semibold">Downloads</h2>
+      <h2 className="text-lg font-semibold">ダウンロード</h2>
       <ul>
         <li>
           <a
@@ -128,7 +121,7 @@ const Index = () => {
             <span role="img" aria-label="pizza">
               🍕
             </span>{' '}
-            macOS (Apple Silicon) v0.1.0 beta
+            macOS (Appleシリコン) v0.1.0 ベータ版
           </a>
         </li>
         <li>
@@ -139,17 +132,17 @@ const Index = () => {
             <span role="img" aria-label="pancake">
               🥞
             </span>{' '}
-            macOS (Intel) v0.1.0 beta
+            macOS (Intel) v0.1.0 ベータ版
           </a>
         </li>
       </ul>
       <p className="text-sm">
-        The beta version has an expiration date of approximately 30 days. The
-        expiration date will be extended when you install a new version.
+        ※
+        ベータ版につき約30日間の使用期限があります。新しいバージョンをインストールすると期限が延長されます。
       </p>
 
       <section className="border-t border-gray-300 bg-white py-8">
-        <h2 className="text-lg font-semibold">Contact</h2>
+        <h2 className="text-lg font-semibold">お問合せ</h2>
         <form
           action="#"
           className="space-y-8 pt-4"
@@ -163,7 +156,7 @@ const Index = () => {
               htmlFor="email"
               className="mb-2 block text-sm font-medium text-gray-900"
             >
-              Mail address
+              メールアドレス
             </label>
             <input
               type="email"
@@ -178,7 +171,7 @@ const Index = () => {
               htmlFor="message"
               className="mb-2 block text-sm font-medium text-gray-900"
             >
-              Message
+              メッセージ
             </label>
             <textarea
               name="message"
@@ -191,7 +184,7 @@ const Index = () => {
             type="submit"
             className="hover:bg-primary-800 focus:ring-primary-300 rounded-lg bg-gray-600 py-3 px-5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 sm:w-fit"
           >
-            Send
+            送信
           </button>
         </form>
       </section>

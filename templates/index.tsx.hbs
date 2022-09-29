@@ -14,111 +14,97 @@ const Index = () => {
 
   return (
     <Main
-      meta={
-        <Meta
-          title="Jomai"
-          description="Jomai is a desktop search system specialized for Markdown files"
-        />
-      }
-      title="Jomai"
-      description="Jomai is a desktop search system specialized for Markdown files"
+      meta={<Meta title="{{title}}" description="{{description}}" />}
+      title="{{title}}"
+      description="{{description}}"
     >
-      <h1 className="text-2xl font-bold">Instantly search Markdown files</h1>
+      <h1 className="text-2xl font-bold">{{overview.title}}</h1>
       <p>
         <span role="img" aria-label="rocket">
           🚀
         </span>{' '}
-        Jomai indexes and makes searchable the Markdown documents on your
-        computer. Once indexed, Jomai&#x27;s optimized search function makes it
-        easy to find your documents. No more worrying about where to put your
-        documents. Just write it down, and you can quickly search and find it
-        when you need it.
+        {{overview.description}}
         <span role="img" aria-label="zap">
           ⚡️
         </span>
       </p>
       <img
-        src={`${router.basePath}/assets/images/screenshot-main-light-ja.png`}
+        src={`${router.basePath}/assets/images/{{overview.image1}}`}
         alt="Jomai screenshot"
       />
-      <h2 className="text-lg font-semibold">Features</h2>
+      <h2 className="text-lg font-semibold">{{features.title}}</h2>
       <ul>
         <li>
           <span role="img" aria-label="rocket">
             🚀
           </span>{' '}
-          Jomai is a desktop search system specialized for Markdown files.
+          {{features.item1}}
         </li>
         <li>
           <span role="img" aria-label="pencil2">
             ✏️
           </span>{' '}
-          Indexes and makes searchable files on local disk.
+          {{features.item2}}
         </li>
         <li>
           <span role="img" aria-label="nail_care">
             💅
           </span>{' '}
-          Finds the file using the file name and the content, frontmatter.
+          {{features.item3}}
         </li>
         <li>
           <span role="img" aria-label="hammer_and_wrench">
             🛠
           </span>{' '}
-          Guesses the language used from the file content and indexes it best
-          for that language (English and Japanese are supported in the current
-          version).
+          {{features.item4}}
         </li>
         <li>
           <span role="img" aria-label="snake">
             🐍
           </span>{' '}
-          Captures and makes documents searchable anywhere on the local disk
-          (requires preconfigured monitored paths).
+          {{features.item5}}
         </li>
         <li>
           <span role="img" aria-label="art">
             🎨
           </span>{' '}
-          Place the document near your project folder or other related files.
-          There is no need to remember where you put them. You can easily find
-          them by searching.
+          {{features.item6}}
         </li>
         <li>
           <span role="img" aria-label="fox_face">
             🦊
           </span>{' '}
-          Open the file you found in your favorite editor.
+          {{features.item7}}
         </li>
       </ul>
-      <h2 className="text-lg font-semibold">Future development plans</h2>
+      <h2 className="text-lg font-semibold">{{futurePlans.title}}</h2>
       <ul>
         <li>
           <span role="img" aria-label="languages">
             🔤
           </span>{' '}
-          More supported languages
+          {{futurePlans.moreLanguageSupport}}
         </li>
         <li>
           <span role="img" aria-label="documents">
             📑
           </span>{' '}
-          More file types
+          {{futurePlans.moreFileTypeSupport}}
         </li>
         <li>
           <span role="img" aria-label="computer">
             💻
           </span>{' '}
-          Windows and Linux
+          {{futurePlans.morePlatformSupport}}
         </li>
         <li>
           <span role="img" aria-label="terminal">
             🖥
           </span>{' '}
-          CLI (command line interface)
+          {{futurePlans.cliSupport}}
         </li>
       </ul>
-      <h2 className="text-lg font-semibold">Downloads</h2>
+      <h2 className="text-lg font-semibold">{{downloads.title}}</h2>
       <ul>
         <li>
           <a
@@ -128,7 +114,7 @@ const Index = () => {
             <span role="img" aria-label="pizza">
               🍕
             </span>{' '}
-            macOS (Apple Silicon) v0.1.0 beta
+            {{downloads.macOsAppleSilicon}}
           </a>
         </li>
         <li>
@@ -139,17 +125,14 @@ const Index = () => {
             <span role="img" aria-label="pancake">
               🥞
             </span>{' '}
-            macOS (Intel) v0.1.0 beta
+            {{downloads.macOsIntel}}
           </a>
         </li>
       </ul>
-      <p className="text-sm">
-        The beta version has an expiration date of approximately 30 days. The
-        expiration date will be extended when you install a new version.
-      </p>
+      <p className="text-sm">{{downloads.note}}</p>
 
       <section className="border-t border-gray-300 bg-white py-8">
-        <h2 className="text-lg font-semibold">Contact</h2>
+        <h2 className="text-lg font-semibold">{{contact.title}}</h2>
         <form
           action="#"
           className="space-y-8 pt-4"
@@ -163,7 +146,7 @@ const Index = () => {
               htmlFor="email"
               className="mb-2 block text-sm font-medium text-gray-900"
             >
-              Mail address
+              {{contact.email}}
             </label>
             <input
               type="email"
@@ -178,7 +161,7 @@ const Index = () => {
               htmlFor="message"
               className="mb-2 block text-sm font-medium text-gray-900"
             >
-              Message
+              {{contact.message}}
             </label>
             <textarea
               name="message"
@@ -191,7 +174,7 @@ const Index = () => {
             type="submit"
             className="hover:bg-primary-800 focus:ring-primary-300 rounded-lg bg-gray-600 py-3 px-5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 sm:w-fit"
           >
-            Send
+            {{contact.send}}
           </button>
         </form>
       </section>
