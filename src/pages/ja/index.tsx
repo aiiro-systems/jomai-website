@@ -18,10 +18,12 @@ const Index = () => {
         <Meta
           title="Jomai"
           description="Jomai(ジョーマイ)はMarkdownファイルに特化したデスクトップサーチシステムです"
+          lang="ja"
         />
       }
       title="Jomai"
       description="Jomai(ジョーマイ)はMarkdownファイルに特化したデスクトップサーチシステムです"
+      lang="ja"
     >
       <h1 className="text-2xl font-bold">Markdownファイルを瞬時に検索</h1>
       <p>
