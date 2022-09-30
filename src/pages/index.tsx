@@ -108,12 +108,6 @@ const Index = () => {
           More supported languages
         </li>
         <li>
-          <span role="img" aria-label="documents">
-            📑
-          </span>{' '}
-          More file types
-        </li>
-        <li>
           <span role="img" aria-label="computer">
             💻
           </span>{' '}

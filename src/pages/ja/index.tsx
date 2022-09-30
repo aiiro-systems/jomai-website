@@ -99,12 +99,6 @@ const Index = () => {
           対応言語の追加
         </li>
         <li>
-          <span role="img" aria-label="documents">
-            📑
-          </span>{' '}
-          Markdown以外のファイル形式に対応
-        </li>
-        <li>
           <span role="img" aria-label="computer">
             💻
           </span>{' '}
