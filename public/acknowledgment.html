@@ -3,7 +3,7 @@
 <head>
   <style>
     @media (prefers-color-scheme: dark) {
-      .container {
+      body {
         background: #333;
         color: white;
       }
@@ -24,9 +24,6 @@
     .container {
       font-family: sans-serif;
       padding: 32px;
-    }
-
-    .contents {
       max-width: 800px;
       margin: 0 auto;
     }
@@ -60,23 +57,22 @@
 </head>
 
 <body>
-<main className="container">
-  <div className="contents">
-    <div className="intro">
-      <h1>Third Party Licenses</h1>
-      <p>This page lists the licenses of the projects used in Jomai.</p>
-    </div>
+<main class="container">
+  <div class="intro">
+    <h1>Third Party Licenses</h1>
+    <p>This page lists the licenses of the projects used in Jomai.</p>
+  </div>
 
-    <h2>All license text:</h2>
-    <ul className="licenses-list">
-        <li className="license">
-          <h3 id="Apache-2.0">Apache License 2.0</h3>
-          <h4>Used by:</h4>
-          <ul className="license-used-by">
-              <li><a href=" https://github.com/tauri-apps/tauri ">tauri 1.1.1</a>
-              </li>
-          </ul>
-          <pre className="license-text">
+  <h2>All license text:</h2>
+  <ul class="licenses-list">
+      <li class="license">
+        <h3 id="Apache-2.0">Apache License 2.0</h3>
+        <h4>Used by:</h4>
+        <ul class="license-used-by">
+            <li><a href=" https://github.com/tauri-apps/tauri ">tauri 1.1.1</a>
+            </li>
+        </ul>
+        <pre class="license-text">
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -254,17 +250,17 @@
 
    END OF TERMS AND CONDITIONS
 </pre>
-        </li>
-        <li className="license">
-          <h3 id="Apache-2.0">Apache License 2.0</h3>
-          <h4>Used by:</h4>
-          <ul className="license-used-by">
-              <li><a href=" https://github.com/pemistahl/lingua-rs ">lingua 1.4.0</a>
-              </li>
-              <li><a href=" https://github.com/tauri-apps/tauri-plugin-localhost ">tauri-plugin-window-state 0.1.0</a>
-              </li>
-          </ul>
-          <pre className="license-text">                                 Apache License
+      </li>
+      <li class="license">
+        <h3 id="Apache-2.0">Apache License 2.0</h3>
+        <h4>Used by:</h4>
+        <ul class="license-used-by">
+            <li><a href=" https://github.com/pemistahl/lingua-rs ">lingua 1.4.0</a>
+            </li>
+            <li><a href=" https://github.com/tauri-apps/tauri-plugin-localhost ">tauri-plugin-window-state 0.1.0</a>
+            </li>
+        </ul>
+        <pre class="license-text">                                 Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -466,15 +462,15 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 </pre>
-        </li>
-        <li className="license">
-          <h3 id="Apache-2.0">Apache License 2.0</h3>
-          <h4>Used by:</h4>
-          <ul className="license-used-by">
-              <li><a href=" https://github.com/rust-lang/futures-rs ">futures 0.3.24</a>
-              </li>
-          </ul>
-          <pre className="license-text">                              Apache License
+      </li>
+      <li class="license">
+        <h3 id="Apache-2.0">Apache License 2.0</h3>
+        <h4>Used by:</h4>
+        <ul class="license-used-by">
+            <li><a href=" https://github.com/rust-lang/futures-rs ">futures 0.3.24</a>
+            </li>
+        </ul>
+        <pre class="license-text">                              Apache License
                         Version 2.0, January 2004
                      http://www.apache.org/licenses/
 
@@ -677,15 +673,15 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 </pre>
-        </li>
-        <li className="license">
-          <h3 id="Apache-2.0">Apache License 2.0</h3>
-          <h4>Used by:</h4>
-          <ul className="license-used-by">
-              <li><a href=" https://github.com/yaahc/color-eyre ">color-eyre 0.6.2</a>
-              </li>
-          </ul>
-          <pre className="license-text">                              Apache License
+      </li>
+      <li class="license">
+        <h3 id="Apache-2.0">Apache License 2.0</h3>
+        <h4>Used by:</h4>
+        <ul class="license-used-by">
+            <li><a href=" https://github.com/yaahc/color-eyre ">color-eyre 0.6.2</a>
+            </li>
+        </ul>
+        <pre class="license-text">                              Apache License
                         Version 2.0, January 2004
                      http://www.apache.org/licenses/
 
@@ -886,37 +882,37 @@ distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.</pre>
-        </li>
-        <li className="license">
-          <h3 id="Apache-2.0">Apache License 2.0</h3>
-          <h4>Used by:</h4>
-          <ul className="license-used-by">
-              <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.65</a>
-              </li>
-              <li><a href=" https://github.com/smol-rs/async-channel ">async-channel 1.7.1</a>
-              </li>
-              <li><a href=" https://github.com/rust-itertools/itertools ">itertools 0.10.5</a>
-              </li>
-              <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.15.0</a>
-              </li>
-              <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.145</a>
-              </li>
-              <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.145</a>
-              </li>
-              <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.85</a>
-              </li>
-              <li><a href=" https://github.com/dtolnay/serde-yaml ">serde_yaml 0.9.13</a>
-              </li>
-              <li><a href=" https://github.com/Stebalien/tempfile ">tempfile 3.3.0</a>
-              </li>
-              <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.36</a>
-              </li>
-              <li><a href=" https://github.com/alexcrichton/toml-rs ">toml 0.5.9</a>
-              </li>
-              <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.22</a>
-              </li>
-          </ul>
-          <pre className="license-text">                              Apache License
+      </li>
+      <li class="license">
+        <h3 id="Apache-2.0">Apache License 2.0</h3>
+        <h4>Used by:</h4>
+        <ul class="license-used-by">
+            <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.65</a>
+            </li>
+            <li><a href=" https://github.com/smol-rs/async-channel ">async-channel 1.7.1</a>
+            </li>
+            <li><a href=" https://github.com/rust-itertools/itertools ">itertools 0.10.5</a>
+            </li>
+            <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.15.0</a>
+            </li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.145</a>
+            </li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.145</a>
+            </li>
+            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.85</a>
+            </li>
+            <li><a href=" https://github.com/dtolnay/serde-yaml ">serde_yaml 0.9.13</a>
+            </li>
+            <li><a href=" https://github.com/Stebalien/tempfile ">tempfile 3.3.0</a>
+            </li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.36</a>
+            </li>
+            <li><a href=" https://github.com/alexcrichton/toml-rs ">toml 0.5.9</a>
+            </li>
+            <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.22</a>
+            </li>
+        </ul>
+        <pre class="license-text">                              Apache License
                         Version 2.0, January 2004
                      http://www.apache.org/licenses/
 
@@ -1118,15 +1114,15 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 </pre>
-        </li>
-        <li className="license">
-          <h3 id="Apache-2.0">Apache License 2.0</h3>
-          <h4>Used by:</h4>
-          <ul className="license-used-by">
-              <li><a href=" https://github.com/launchbadge/sqlx ">sqlx 0.6.2</a>
-              </li>
-          </ul>
-          <pre className="license-text">Apache License
+      </li>
+      <li class="license">
+        <h3 id="Apache-2.0">Apache License 2.0</h3>
+        <h4>Used by:</h4>
+        <ul class="license-used-by">
+            <li><a href=" https://github.com/launchbadge/sqlx ">sqlx 0.6.2</a>
+            </li>
+        </ul>
+        <pre class="license-text">Apache License
 Version 2.0, January 2004
 http://www.apache.org/licenses/
 
@@ -1327,15 +1323,15 @@ distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.</pre>
-        </li>
-        <li className="license">
-          <h3 id="Apache-2.0">Apache License 2.0</h3>
-          <h4>Used by:</h4>
-          <ul className="license-used-by">
-              <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.22</a>
-              </li>
-          </ul>
-          <pre className="license-text">Licensed under the Apache License, Version 2.0
+      </li>
+      <li class="license">
+        <h3 id="Apache-2.0">Apache License 2.0</h3>
+        <h4>Used by:</h4>
+        <ul class="license-used-by">
+            <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.22</a>
+            </li>
+        </ul>
+        <pre class="license-text">Licensed under the Apache License, Version 2.0
 &lt;LICENSE-APACHE or
 http://www.apache.org/licenses/LICENSE-2.0&gt; or the MIT
 license &lt;LICENSE-MIT or http://opensource.org/licenses/MIT&gt;,
@@ -1343,15 +1339,15 @@ at your option. All files in the project carrying such
 notice may not be copied, modified, or distributed except
 according to those terms.
 </pre>
-        </li>
-        <li className="license">
-          <h3 id="Apache-2.0">Apache License 2.0</h3>
-          <h4>Used by:</h4>
-          <ul className="license-used-by">
-              <li><a href=" https://github.com/chronotope/chrono ">chrono 0.4.22</a>
-              </li>
-          </ul>
-          <pre className="license-text">Rust-chrono is dual-licensed under The MIT License [1] and
+      </li>
+      <li class="license">
+        <h3 id="Apache-2.0">Apache License 2.0</h3>
+        <h4>Used by:</h4>
+        <ul class="license-used-by">
+            <li><a href=" https://github.com/chronotope/chrono ">chrono 0.4.22</a>
+            </li>
+        </ul>
+        <pre class="license-text">Rust-chrono is dual-licensed under The MIT License [1] and
 Apache 2.0 License [2]. Copyright (c) 2014--2017, Kang Seonghoon and
 contributors.
 
@@ -1592,15 +1588,15 @@ limitations under the License.
 ~~~~
 
 </pre>
-        </li>
-        <li className="license">
-          <h3 id="CC0-1.0">Creative Commons Zero v1.0 Universal</h3>
-          <h4>Used by:</h4>
-          <ul className="license-used-by">
-              <li><a href=" https://github.com/notify-rs/notify.git ">notify 5.0.0</a>
-              </li>
-          </ul>
-          <pre className="license-text">Creative Commons Legal Code
+      </li>
+      <li class="license">
+        <h3 id="CC0-1.0">Creative Commons Zero v1.0 Universal</h3>
+        <h4>Used by:</h4>
+        <ul class="license-used-by">
+            <li><a href=" https://github.com/notify-rs/notify.git ">notify 5.0.0</a>
+            </li>
+        </ul>
+        <pre class="license-text">Creative Commons Legal Code
 
 CC0 1.0 Universal
 
@@ -1722,15 +1718,15 @@ express Statement of Purpose.
     party to this document and has no duty or obligation with respect to
     this CC0 or use of the Work.
 </pre>
-        </li>
-        <li className="license">
-          <h3 id="MIT">MIT License</h3>
-          <h4>Used by:</h4>
-          <ul className="license-used-by">
-              <li><a href=" https://github.com/quickwit-oss/tantivy ">tantivy 0.18.0</a>
-              </li>
-          </ul>
-          <pre className="license-text">Copyright (c) 2018 by the project authors, as listed in the AUTHORS file. 
+      </li>
+      <li class="license">
+        <h3 id="MIT">MIT License</h3>
+        <h4>Used by:</h4>
+        <ul class="license-used-by">
+            <li><a href=" https://github.com/quickwit-oss/tantivy ">tantivy 0.18.0</a>
+            </li>
+        </ul>
+        <pre class="license-text">Copyright (c) 2018 by the project authors, as listed in the AUTHORS file. 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -1738,21 +1734,21 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </pre>
-        </li>
-        <li className="license">
-          <h3 id="MIT">MIT License</h3>
-          <h4>Used by:</h4>
-          <ul className="license-used-by">
-              <li><a href=" https://github.com/tokio-rs/tracing ">tracing 0.1.36</a>
-              </li>
-              <li><a href=" https://github.com/tokio-rs/tracing ">tracing-appender 0.2.2</a>
-              </li>
-              <li><a href=" https://github.com/tokio-rs/tracing ">tracing-futures 0.2.5</a>
-              </li>
-              <li><a href=" https://github.com/tokio-rs/tracing ">tracing-subscriber 0.3.15</a>
-              </li>
-          </ul>
-          <pre className="license-text">Copyright (c) 2019 Tokio Contributors
+      </li>
+      <li class="license">
+        <h3 id="MIT">MIT License</h3>
+        <h4>Used by:</h4>
+        <ul class="license-used-by">
+            <li><a href=" https://github.com/tokio-rs/tracing ">tracing 0.1.36</a>
+            </li>
+            <li><a href=" https://github.com/tokio-rs/tracing ">tracing-appender 0.2.2</a>
+            </li>
+            <li><a href=" https://github.com/tokio-rs/tracing ">tracing-futures 0.2.5</a>
+            </li>
+            <li><a href=" https://github.com/tokio-rs/tracing ">tracing-subscriber 0.3.15</a>
+            </li>
+        </ul>
+        <pre class="license-text">Copyright (c) 2019 Tokio Contributors
 
 Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
@@ -1778,17 +1774,17 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
 IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 </pre>
-        </li>
-        <li className="license">
-          <h3 id="MIT">MIT License</h3>
-          <h4>Used by:</h4>
-          <ul className="license-used-by">
-              <li><a href=" https://github.com/tokio-rs/tokio ">tokio 1.21.1</a>
-              </li>
-              <li><a href=" https://github.com/tokio-rs/tokio ">tokio-stream 0.1.10</a>
-              </li>
-          </ul>
-          <pre className="license-text">Copyright (c) 2022 Tokio Contributors
+      </li>
+      <li class="license">
+        <h3 id="MIT">MIT License</h3>
+        <h4>Used by:</h4>
+        <ul class="license-used-by">
+            <li><a href=" https://github.com/tokio-rs/tokio ">tokio 1.21.1</a>
+            </li>
+            <li><a href=" https://github.com/tokio-rs/tokio ">tokio-stream 0.1.10</a>
+            </li>
+        </ul>
+        <pre class="license-text">Copyright (c) 2022 Tokio Contributors
 
 Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
@@ -1814,15 +1810,15 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
 IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 </pre>
-        </li>
-        <li className="license">
-          <h3 id="MIT">MIT License</h3>
-          <h4>Used by:</h4>
-          <ul className="license-used-by">
-              <li><a href=" https://crates.io/crates/tantivy-vibrato ">tantivy-vibrato 0.2.0</a>
-              </li>
-          </ul>
-          <pre className="license-text">MIT License
+      </li>
+      <li class="license">
+        <h3 id="MIT">MIT License</h3>
+        <h4>Used by:</h4>
+        <ul class="license-used-by">
+            <li><a href=" https://crates.io/crates/tantivy-vibrato ">tantivy-vibrato 0.2.0</a>
+            </li>
+        </ul>
+        <pre class="license-text">MIT License
 
 Copyright (c) 2022 UEDA Akira
 
@@ -1844,15 +1840,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </pre>
-        </li>
-        <li className="license">
-          <h3 id="MIT">MIT License</h3>
-          <h4>Used by:</h4>
-          <ul className="license-used-by">
-              <li><a href=" https://github.com/dotenv-rs/dotenv ">dotenv 0.15.0</a>
-              </li>
-          </ul>
-          <pre className="license-text">MIT License
+      </li>
+      <li class="license">
+        <h3 id="MIT">MIT License</h3>
+        <h4>Used by:</h4>
+        <ul class="license-used-by">
+            <li><a href=" https://github.com/dotenv-rs/dotenv ">dotenv 0.15.0</a>
+            </li>
+        </ul>
+        <pre class="license-text">MIT License
 
 Copyright (c) &lt;year&gt; &lt;copyright holders&gt;
 
@@ -1862,15 +1858,15 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </pre>
-        </li>
-        <li className="license">
-          <h3 id="MIT">MIT License</h3>
-          <h4>Used by:</h4>
-          <ul className="license-used-by">
-              <li><a href=" https://github.com/raphlinus/pulldown-cmark ">pulldown-cmark 0.9.2</a>
-              </li>
-          </ul>
-          <pre className="license-text">The MIT License
+      </li>
+      <li class="license">
+        <h3 id="MIT">MIT License</h3>
+        <h4>Used by:</h4>
+        <ul class="license-used-by">
+            <li><a href=" https://github.com/raphlinus/pulldown-cmark ">pulldown-cmark 0.9.2</a>
+            </li>
+        </ul>
+        <pre class="license-text">The MIT License
 
 Copyright 2015 Google Inc. All rights reserved.
 
@@ -1892,15 +1888,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 </pre>
-        </li>
-        <li className="license">
-          <h3 id="MIT">MIT License</h3>
-          <h4>Used by:</h4>
-          <ul className="license-used-by">
-              <li><a href=" https://github.com/gemmarx/unicode-jp-rs ">unicode-jp 0.4.0</a>
-              </li>
-          </ul>
-          <pre className="license-text">The MIT License (MIT)
+      </li>
+      <li class="license">
+        <h3 id="MIT">MIT License</h3>
+        <h4>Used by:</h4>
+        <ul class="license-used-by">
+            <li><a href=" https://github.com/gemmarx/unicode-jp-rs ">unicode-jp 0.4.0</a>
+            </li>
+        </ul>
+        <pre class="license-text">The MIT License (MIT)
 
 Copyright (c) 2016 gemmarx
 
@@ -1922,15 +1918,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </pre>
-        </li>
-        <li className="license">
-          <h3 id="MIT">MIT License</h3>
-          <h4>Used by:</h4>
-          <ul className="license-used-by">
-              <li><a href=" https://github.com/pyros2097/rust-embed ">rust-embed 6.4.1</a>
-              </li>
-          </ul>
-          <pre className="license-text">The MIT License (MIT)
+      </li>
+      <li class="license">
+        <h3 id="MIT">MIT License</h3>
+        <h4>Used by:</h4>
+        <ul class="license-used-by">
+            <li><a href=" https://github.com/pyros2097/rust-embed ">rust-embed 6.4.1</a>
+            </li>
+        </ul>
+        <pre class="license-text">The MIT License (MIT)
 
 Copyright (c) 2018 pyros2097
 
@@ -1953,15 +1949,15 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 </pre>
-        </li>
-        <li className="license">
-          <h3 id="MIT">MIT License</h3>
-          <h4>Used by:</h4>
-          <ul className="license-used-by">
-              <li><a href=" https://github.com/jessegrosjean/jwalk ">jwalk 0.6.0</a>
-              </li>
-          </ul>
-          <pre className="license-text">The MIT License (MIT)
+      </li>
+      <li class="license">
+        <h3 id="MIT">MIT License</h3>
+        <h4>Used by:</h4>
+        <ul class="license-used-by">
+            <li><a href=" https://github.com/jessegrosjean/jwalk ">jwalk 0.6.0</a>
+            </li>
+        </ul>
+        <pre class="license-text">The MIT License (MIT)
 
 Copyright (c) 2019 Jesse Grosjean
 
@@ -1982,16 +1978,45 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.</pre>
-        </li>
+      </li>
 
-      <li className="license">
-        <h3 id="MIT-stopwords-iso">MIT License</h3>
-        <h4>Used by:</h4>
-        <ul className="license-used-by">
-          <li><a href="https://github.com/stopwords-iso/stopwords-en">stopwords-en (0.3.0)</a></li>
-          <li><a href="https://github.com/stopwords-iso/stopwords-ja">stopwords-ja (0.2.0)</a></li>
-        </ul>
-        <pre className="license-text">The MIT License (MIT)
+    <li class="license">
+      <h3 id="vibrato">MIT License</h3>
+      <h4>Used by:</h4>
+      <ul class="license-used-by">
+        <li><a href="https://github.com/daac-tools/vibrato">vibrato (0.2.0)</a></li>
+      </ul>
+      <pre class="license-text">MIT License
+
+Copyright (c) 2022 legalforce-research
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</pre>
+    </li>
+
+    <li class="license">
+      <h3 id="MIT-stopwords-iso">MIT License</h3>
+      <h4>Used by:</h4>
+      <ul class="license-used-by">
+        <li><a href="https://github.com/stopwords-iso/stopwords-en">stopwords-en (0.3.0)</a></li>
+        <li><a href="https://github.com/stopwords-iso/stopwords-ja">stopwords-ja (0.2.0)</a></li>
+      </ul>
+      <pre class="license-text">The MIT License (MIT)
 
 Copyright (c) 2016 Gene Diaz
 
@@ -2012,15 +2037,15 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.</pre>
-      </li>
+    </li>
 
-      <li className="license">
-        <h3 id="MIT-stopwords-iso">MIT License</h3>
-        <h4>Used by:</h4>
-        <ul className="license-used-by">
-          <li><a href="https://github.com/chakra-ui/chakra-ui/">Chakra UI (2.2.4)</a></li>
-        </ul>
-        <pre className="license-text">MIT License
+    <li class="license">
+      <h3 id="MIT-stopwords-iso">MIT License</h3>
+      <h4>Used by:</h4>
+      <ul class="license-used-by">
+        <li><a href="https://github.com/chakra-ui/chakra-ui/">Chakra UI (2.2.4)</a></li>
+      </ul>
+      <pre class="license-text">MIT License
 
 Copyright (c) 2019 Segun Adebayo
 
@@ -2041,16 +2066,16 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.</pre>
-      </li>
+    </li>
 
-      <li className="license">
-        <h3 id="MIT-stopwords-iso">MIT License</h3>
-        <h4>Used by:</h4>
-        <ul className="license-used-by">
-          <li><a href="https://github.com/emotion-js/emotion">emotion-react (11.9.3)</a></li>
-          <li><a href="https://github.com/emotion-js/emotion">emotion-styled (11.9.3)</a></li>
-        </ul>
-        <pre className="license-text">MIT License
+    <li class="license">
+      <h3 id="MIT-stopwords-iso">MIT License</h3>
+      <h4>Used by:</h4>
+      <ul class="license-used-by">
+        <li><a href="https://github.com/emotion-js/emotion">emotion-react (11.9.3)</a></li>
+        <li><a href="https://github.com/emotion-js/emotion">emotion-styled (11.9.3)</a></li>
+      </ul>
+      <pre class="license-text">MIT License
 
 Copyright (c) Emotion team and other contributors
 
@@ -2071,15 +2096,15 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.</pre>
-      </li>
+    </li>
 
-      <li className="license">
-        <h3 id="MIT-stopwords-iso">MIT License</h3>
-        <h4>Used by:</h4>
-        <ul className="license-used-by">
-          <li><a href="https://github.com/FortAwesome/react-fontawesome">react-fontawesome (0.2.0)</a></li>
-        </ul>
-        <pre className="license-text">Copyright 2018 Fonticons, Inc.
+    <li class="license">
+      <h3 id="MIT-stopwords-iso">MIT License</h3>
+      <h4>Used by:</h4>
+      <ul class="license-used-by">
+        <li><a href="https://github.com/FortAwesome/react-fontawesome">react-fontawesome (0.2.0)</a></li>
+      </ul>
+      <pre class="license-text">Copyright 2018 Fonticons, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -2098,15 +2123,15 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.</pre>
-      </li>
+    </li>
 
-      <li className="license">
-        <h3 id="MIT-stopwords-iso">MIT License</h3>
-        <h4>Used by:</h4>
-        <ul className="license-used-by">
-          <li><a href="https://github.com/lukeed/clsx">clsx (1.2.1)</a></li>
-        </ul>
-        <pre className="license-text">MIT License
+    <li class="license">
+      <h3 id="MIT-stopwords-iso">MIT License</h3>
+      <h4>Used by:</h4>
+      <ul class="license-used-by">
+        <li><a href="https://github.com/lukeed/clsx">clsx (1.2.1)</a></li>
+      </ul>
+      <pre class="license-text">MIT License
 
 Copyright (c) Luke Edwards &lt;luke.edwards05@gmail.com&gt; (lukeed.com)
 
@@ -2116,15 +2141,15 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </pre>
-      </li>
+    </li>
 
-      <li className="license">
-        <h3 id="MIT-stopwords-iso">MIT License</h3>
-        <h4>Used by:</h4>
-        <ul className="license-used-by">
-          <li><a href="https://github.com/iamkun/dayjs">dayjs (1.11.4)</a></li>
-        </ul>
-        <pre className="license-text">MIT License
+    <li class="license">
+      <h3 id="MIT-stopwords-iso">MIT License</h3>
+      <h4>Used by:</h4>
+      <ul class="license-used-by">
+        <li><a href="https://github.com/iamkun/dayjs">dayjs (1.11.4)</a></li>
+      </ul>
+      <pre class="license-text">MIT License
 
 Copyright (c) 2018-present, iamkun
 
@@ -2145,18 +2170,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.</pre>
-      </li>
+    </li>
 
-      <li className="license">
-        <h3 id="MIT-stopwords-iso">MIT License</h3>
-        <h4>Used by:</h4>
-        <ul className="license-used-by">
-          <li><a href="https://github.com/i18next/i18next">i18next (21.9.1)</a></li>
-          <li><a href="https://github.com/i18next/react-i18next">react-i18next (11.18.5)</a></li>
-          <li><a href="https://github.com/i18next/i18next-browser-languageDetector">i18next-browser-languageDetector
-            (6.1.5)</a></li>
-        </ul>
-        <pre className="license-text">The MIT License (MIT)
+    <li class="license">
+      <h3 id="MIT-stopwords-iso">MIT License</h3>
+      <h4>Used by:</h4>
+      <ul class="license-used-by">
+        <li><a href="https://github.com/i18next/i18next">i18next (21.9.1)</a></li>
+        <li><a href="https://github.com/i18next/react-i18next">react-i18next (11.18.5)</a></li>
+        <li><a href="https://github.com/i18next/i18next-browser-languageDetector">i18next-browser-languageDetector
+          (6.1.5)</a></li>
+      </ul>
+      <pre class="license-text">The MIT License (MIT)
 
 Copyright (c) 2022 i18next
 
@@ -2177,16 +2202,16 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.</pre>
-      </li>
+    </li>
 
-      <li className="license">
-        <h3 id="MIT-stopwords-iso">MIT License</h3>
-        <h4>Used by:</h4>
-        <ul className="license-used-by">
-          <li><a href="https://github.com/facebook/react">React (18.2.0)</a></li>
-          <li><a href="https://github.com/facebook/react">react-dom (18.2.0)</a></li>
-        </ul>
-        <pre className="license-text">MIT License
+    <li class="license">
+      <h3 id="MIT-stopwords-iso">MIT License</h3>
+      <h4>Used by:</h4>
+      <ul class="license-used-by">
+        <li><a href="https://github.com/facebook/react">React (18.2.0)</a></li>
+        <li><a href="https://github.com/facebook/react">react-dom (18.2.0)</a></li>
+      </ul>
+      <pre class="license-text">MIT License
 
 Copyright (c) Facebook, Inc. and its affiliates.
 
@@ -2207,15 +2232,15 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.</pre>
-      </li>
+    </li>
 
-      <li className="license">
-        <h3 id="MIT-stopwords-iso">MIT License</h3>
-        <h4>Used by:</h4>
-        <ul className="license-used-by">
-          <li><a href="https://github.com/TanStack/query">react-query (3.39.2)</a></li>
-        </ul>
-        <pre className="license-text">MIT License
+    <li class="license">
+      <h3 id="MIT-stopwords-iso">MIT License</h3>
+      <h4>Used by:</h4>
+      <ul class="license-used-by">
+        <li><a href="https://github.com/TanStack/query">react-query (3.39.2)</a></li>
+      </ul>
+      <pre class="license-text">MIT License
 
 Copyright (c) 2021 Tanner Linsley
 
@@ -2236,15 +2261,15 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.</pre>
-      </li>
+    </li>
 
-      <li className="license">
-        <h3 id="MIT-stopwords-iso">MIT License</h3>
-        <h4>Used by:</h4>
-        <ul className="license-used-by">
-          <li><a href="https://github.com/petyosi/react-virtuoso">react-virtuoso (2.19.0)</a></li>
-        </ul>
-        <pre className="license-text">MIT License
+    <li class="license">
+      <h3 id="MIT-stopwords-iso">MIT License</h3>
+      <h4>Used by:</h4>
+      <ul class="license-used-by">
+        <li><a href="https://github.com/petyosi/react-virtuoso">react-virtuoso (2.19.0)</a></li>
+      </ul>
+      <pre class="license-text">MIT License
 
 Copyright (c) 2020 Petyo Ivanov
 
@@ -2265,10 +2290,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.</pre>
-      </li>
+    </li>
 
-    </ul>
-  </div>
+  </ul>
 </main>
 </body>
 
