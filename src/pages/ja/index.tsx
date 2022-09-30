@@ -49,7 +49,16 @@ const Index = () => {
           <span role="img" aria-label="flower">
             🌸
           </span>{' '}
-          Jomaiはあなたのデータを外部に送信しません。あなたのコンピューター内ですべて処理します。(新しいバージョンの確認とダウンロードは除く)
+          Jomaiはあなたのデータを外部に送信しません。あなたのコンピューター内ですべて処理します
+          (新しいバージョンの確認とダウンロードは除く)
+        </li>
+        <li>
+          <span role="img" aria-label="smile">
+            😃
+          </span>{' '}
+          簡単にアンインストールできます。インストールしたアプリケーションとデータフォルダー
+          (/Users/&lt;あなたのホーム&gt;/Library/Application
+          Support/app.jomai.jomai) を削除するだけです
         </li>
         <li>
           <span role="img" aria-label="pencil2">

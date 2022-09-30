@@ -15,7 +15,8 @@
     "item5": "Captures and makes documents searchable anywhere on the local disk (requires preconfigured monitored paths).",
     "item6": "Place the document near your project folder or other related files. There is no need to remember where you put them. You can easily find them by searching.",
     "item7": "Open the file you found in your favorite editor.",
-    "item8": "Jomai does not transmit your data externally. Everything is handled within your computer. (except for checking and downloading new versions)"
+    "item8": "Jomai does not transmit your data externally. Everything is handled within your computer. (except for checking and downloading new versions)",
+    "item9": "It is easy to uninstall. Simply delete the installed application and data folder (/Users/<your-home>/Library/Application Support/app.jomai.jomai)"
   },
   "futurePlans": {
     "title": "Future development plans",

@@ -58,6 +58,14 @@ const Index = () => {
           versions)
         </li>
         <li>
+          <span role="img" aria-label="smile">
+            😃
+          </span>{' '}
+          It is easy to uninstall. Simply delete the installed application and
+          data folder (/Users/&lt;your-home&gt;/Library/Application
+          Support/app.jomai.jomai)
+        </li>
+        <li>
           <span role="img" aria-label="pencil2">
             ✏️
           </span>{' '}
