@@ -40,7 +40,7 @@ const Index = () => {
         </span>
       </p>
       <img
-        src={`${router.basePath}/assets/images/screenshot-main-light-ja.png`}
+        src={`${router.basePath}/assets/images/screenshot-main-light-en.png`}
         alt="Jomai screenshot"
       />
       <h2 className="text-lg font-semibold">Features</h2>
