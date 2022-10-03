@@ -28,8 +28,8 @@
   },
   "downloads": {
     "title": "Downloads",
-    "macOsAppleSilicon": "macOS (Apple Silicon) v0.1.0 beta",
-    "macOsIntel": "macOS (Intel) v0.1.0 beta",
+    "macOsAppleSilicon": "macOS (Apple Silicon) v0.1.1 beta",
+    "macOsIntel": "macOS (Intel) v0.1.1 beta",
     "note": "The beta version has an expiration date of approximately 30 days. The expiration date will be extended when you install a new version."
   },
   "contact": {
