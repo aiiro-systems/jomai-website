@@ -17,12 +17,12 @@ const Index = () => {
       meta={
         <Meta
           title="Jomai"
-          description="Jomai is a desktop search system specialized for Markdown files"
+          description="Jomai is a desktop search system specialized for Markdown files."
           lang="en"
         />
       }
       title="Jomai"
-      description="Jomai is a desktop search system specialized for Markdown files"
+      description="Jomai is a desktop search system specialized for Markdown files."
       lang="en"
     >
       <h1 className="text-2xl font-bold">Instantly search Markdown files</h1>
