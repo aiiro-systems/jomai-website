@@ -140,7 +140,7 @@ const Index = () => {
             <span role="img" aria-label="pizza">
               🍕
             </span>{' '}
-            macOS (Apple Silicon) v0.1.1 beta
+            macOS (Apple Silicon) v0.2.0 beta
           </a>
         </li>
         <li>
@@ -151,7 +151,7 @@ const Index = () => {
             <span role="img" aria-label="pancake">
               🥞
             </span>{' '}
-            macOS (Intel) v0.1.1 beta
+            macOS (Intel) v0.2.0 beta
           </a>
         </li>
       </ul>
