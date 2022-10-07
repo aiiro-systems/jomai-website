@@ -34,7 +34,7 @@ export const GoogleAnalytics = () => {
     <>
       <script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=G-42ME3ZF3TT"
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
       ></script>
       <script
         dangerouslySetInnerHTML={{
