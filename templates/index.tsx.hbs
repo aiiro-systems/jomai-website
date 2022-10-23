@@ -33,111 +33,141 @@ const Index = () => {
         src={`${router.basePath}/assets/images/{{overview.image1}}`}
         alt="Jomai screenshot"
       />
-      <h2 className="text-lg font-semibold">{{features.title}}</h2>
-      <ul>
-        <li>
-          <span role="img" aria-label="rocket">
-            🚀
-          </span>{' '}
-          {{features.item1}}
-        </li>
-        <li>
-          <span role="img" aria-label="flower">
-            🌸
-          </span>{' '}
-          {{features.item8}}
-        </li>
-        <li>
-          <span role="img" aria-label="smile">
-            😃
-          </span>{' '}
-          {{features.item9}}
-        </li>
-        <li>
-          <span role="img" aria-label="pencil2">
-            ✏️
-          </span>{' '}
-          {{features.item2}}
-        </li>
-        <li>
-          <span role="img" aria-label="nail_care">
-            💅
-          </span>{' '}
-          {{features.item3}}
-        </li>
-        <li>
-          <span role="img" aria-label="hammer_and_wrench">
-            🛠
-          </span>{' '}
-          {{features.item4}}
-        </li>
-        <li>
-          <span role="img" aria-label="snake">
-            🐍
-          </span>{' '}
-          {{features.item5}}
-        </li>
-        <li>
-          <span role="img" aria-label="art">
-            🎨
-          </span>{' '}
-          {{features.item6}}
-        </li>
-        <li>
-          <span role="img" aria-label="fox_face">
-            🦊
-          </span>{' '}
-          {{features.item7}}
-        </li>
-      </ul>
-      <h2 className="text-lg font-semibold">{{futurePlans.title}}</h2>
-      <ul>
-        <li>
+      <section>
+        <h2 className="text-lg font-semibold">{{features.title}}</h2>
+        <ul>
+          <li>
+            <span role="img" aria-label="rocket">
+              🚀
+            </span>{' '}
+            {{features.item1}}
+          </li>
+          <li>
+            <span role="img" aria-label="flower">
+              🌸
+            </span>{' '}
+            {{features.item8}}
+          </li>
+          <li>
+            <span role="img" aria-label="smile">
+              😃
+            </span>{' '}
+            {{features.item9}}
+          </li>
+          <li>
+            <span role="img" aria-label="pencil2">
+              ✏️
+            </span>{' '}
+            {{features.item2}}
+          </li>
+          <li>
+            <span role="img" aria-label="nail_care">
+              💅
+            </span>{' '}
+            {{features.item3}}
+          </li>
+          <li>
+            <span role="img" aria-label="hammer_and_wrench">
+              🛠
+            </span>{' '}
+            {{features.item4}}
+          </li>
+          <li>
+            <span role="img" aria-label="snake">
+              🐍
+            </span>{' '}
+            {{features.item5}}
+          </li>
+          <li>
+            <span role="img" aria-label="art">
+              🎨
+            </span>{' '}
+            {{features.item6}}
+          </li>
+          <li>
+            <span role="img" aria-label="fox_face">
+              🦊
+            </span>{' '}
+            {{features.item7}}
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-lg font-semibold">{{futurePlans.title}}</h2>
+        <ul>
+          <li>
           <span role="img" aria-label="languages">
             🔤
           </span>{' '}
-          {{futurePlans.moreLanguageSupport}}
-        </li>
-        <li>
+            {{futurePlans.moreLanguageSupport}}
+          </li>
+          <li>
           <span role="img" aria-label="computer">
             💻
           </span>{' '}
-          {{futurePlans.morePlatformSupport}}
-        </li>
-        <li>
+            {{futurePlans.morePlatformSupport}}
+          </li>
+          <li>
           <span role="img" aria-label="terminal">
             🖥
           </span>{' '}
-          {{futurePlans.cliSupport}}
-        </li>
-      </ul>
-      <h2 className="text-lg font-semibold">{{downloads.title}}</h2>
-      <ul>
-        <li>
-          <a
-            onClick={() => handleDownloadClick('mac-apple')}
+            {{futurePlans.cliSupport}}
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-lg font-semibold">{{downloads.title}}</h2>
+        <ul>
+          <li>
+            <a
+              onClick={() => handleDownloadClick('mac-apple')}
             href="https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/v0.3.0/Jomai_0.3.0_aarch64.dmg"
-          >
+            >
             <span role="img" aria-label="pizza">
               🍕
             </span>{' '}
             {{downloads.macOsAppleSilicon}}
-          </a>
-        </li>
-        <li>
-          <a
-            onClick={() => handleDownloadClick('mac-intel')}
+            </a>
+          </li>
+          <li>
+            <a
+              onClick={() => handleDownloadClick('mac-intel')}
             href="https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/v0.3.0/Jomai_0.3.0_x64.dmg"
-          >
+            >
             <span role="img" aria-label="pancake">
               🥞
             </span>{' '}
             {{downloads.macOsIntel}}
-          </a>
-        </li>
-      </ul>
-      <p className="text-sm">{{downloads.note}}</p>
-
+            </a>
+          </li>
+        </ul>
+        <p className="text-sm">{{downloads.note}}</p>
+      </section>
+      <section>
+        <h2 className="text-md font-semibold">{{history.title}}</h2>
+        <ul className="text-md list-disc">
+          <li>
+            <h3>v0.3.0 (2022-10-23)</h3>
+            <ul>
+              <li>Exclude ~/Library from indexing</li>
+              <li>Some bug fixes</li>
+            </ul>
+          </li>
+          <li>
+            <h3>v0.2.0 (2022-10-05)</h3>
+            <ul>
+              <li>Some bug fixes</li>
+            </ul>
+          </li>
+          <li>
+            <h3>v0.1.0 (2022-09-30)</h3>
+            <ul>
+              <li>Initial release</li>
+            </ul>
+          </li>
+        </ul>
+        <p className="text-sm">{{downloads.note}}</p>
+      </section>
       <section className="border-t border-gray-300 bg-white py-8">
         <h2 className="text-lg font-semibold">{{contact.title}}</h2>
         <form

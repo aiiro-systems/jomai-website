@@ -43,123 +43,156 @@ const Index = () => {
         src={`${router.basePath}/assets/images/screenshot-main-light-en.png`}
         alt="Jomai screenshot"
       />
-      <h2 className="text-lg font-semibold">Features</h2>
-      <ul>
-        <li>
-          <span role="img" aria-label="rocket">
-            🚀
-          </span>{' '}
-          Jomai is a desktop search system specialized for Markdown files.
-        </li>
-        <li>
-          <span role="img" aria-label="flower">
-            🌸
-          </span>{' '}
-          Jomai does not transmit your data externally. Everything is handled
-          within your computer. (except for checking and downloading new
-          versions)
-        </li>
-        <li>
-          <span role="img" aria-label="smile">
-            😃
-          </span>{' '}
-          It is easy to uninstall. Simply delete the installed application and
-          data folder (/Users/&lt;your-home&gt;/Library/Application
-          Support/app.jomai.jomai)
-        </li>
-        <li>
-          <span role="img" aria-label="pencil2">
-            ✏️
-          </span>{' '}
-          Indexes and makes searchable files on local disk.
-        </li>
-        <li>
-          <span role="img" aria-label="nail_care">
-            💅
-          </span>{' '}
-          Finds the file using the file name and the content, frontmatter.
-        </li>
-        <li>
-          <span role="img" aria-label="hammer_and_wrench">
-            🛠
-          </span>{' '}
-          Guesses the language used from the file content and indexes it best
-          for that language (English and Japanese are supported in the current
-          version).
-        </li>
-        <li>
-          <span role="img" aria-label="snake">
-            🐍
-          </span>{' '}
-          Captures and makes documents searchable anywhere on the local disk
-          (requires preconfigured monitored paths).
-        </li>
-        <li>
-          <span role="img" aria-label="art">
-            🎨
-          </span>{' '}
-          Place the document near your project folder or other related files.
-          There is no need to remember where you put them. You can easily find
-          them by searching.
-        </li>
-        <li>
-          <span role="img" aria-label="fox_face">
-            🦊
-          </span>{' '}
-          Open the file you found in your favorite editor.
-        </li>
-      </ul>
-      <h2 className="text-lg font-semibold">Future development plans</h2>
-      <ul>
-        <li>
-          <span role="img" aria-label="languages">
-            🔤
-          </span>{' '}
-          More supported languages
-        </li>
-        <li>
-          <span role="img" aria-label="computer">
-            💻
-          </span>{' '}
-          Windows and Linux
-        </li>
-        <li>
-          <span role="img" aria-label="terminal">
-            🖥
-          </span>{' '}
-          CLI (command line interface)
-        </li>
-      </ul>
-      <h2 className="text-lg font-semibold">Downloads</h2>
-      <ul>
-        <li>
-          <a
-            onClick={() => handleDownloadClick('mac-apple')}
-            href="https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/v0.2.0/Jomai_0.2.0_aarch64.dmg"
-          >
-            <span role="img" aria-label="pizza">
-              🍕
+      <section>
+        <h2 className="text-lg font-semibold">Features</h2>
+        <ul>
+          <li>
+            <span role="img" aria-label="rocket">
+              🚀
             </span>{' '}
-            macOS (Apple Silicon) v0.2.0 beta
-          </a>
-        </li>
-        <li>
-          <a
-            onClick={() => handleDownloadClick('mac-intel')}
-            href="https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/v0.2.0/Jomai_0.2.0_x64.dmg"
-          >
-            <span role="img" aria-label="pancake">
-              🥞
+            Jomai is a desktop search system specialized for Markdown files.
+          </li>
+          <li>
+            <span role="img" aria-label="flower">
+              🌸
             </span>{' '}
-            macOS (Intel) v0.2.0 beta
-          </a>
-        </li>
-      </ul>
-      <p className="text-sm">
-        The beta version has an expiration date of approximately 30 days. The
-        expiration date will be extended when you install a new version.
-      </p>
-
+            Jomai does not transmit your data externally. Everything is handled
+            within your computer. (except for checking and downloading new
+            versions)
+          </li>
+          <li>
+            <span role="img" aria-label="smile">
+              😃
+            </span>{' '}
+            It is easy to uninstall. Simply delete the installed application and
+            data folder (/Users/&lt;your-home&gt;/Library/Application
+            Support/app.jomai.jomai)
+          </li>
+          <li>
+            <span role="img" aria-label="pencil2">
+              ✏️
+            </span>{' '}
+            Indexes and makes searchable files on local disk.
+          </li>
+          <li>
+            <span role="img" aria-label="nail_care">
+              💅
+            </span>{' '}
+            Finds the file using the file name and the content, frontmatter.
+          </li>
+          <li>
+            <span role="img" aria-label="hammer_and_wrench">
+              🛠
+            </span>{' '}
+            Guesses the language used from the file content and indexes it best
+            for that language (English and Japanese are supported in the current
+            version).
+          </li>
+          <li>
+            <span role="img" aria-label="snake">
+              🐍
+            </span>{' '}
+            Captures and makes documents searchable anywhere on the local disk
+            (requires preconfigured monitored paths).
+          </li>
+          <li>
+            <span role="img" aria-label="art">
+              🎨
+            </span>{' '}
+            Place the document near your project folder or other related files.
+            There is no need to remember where you put them. You can easily find
+            them by searching.
+          </li>
+          <li>
+            <span role="img" aria-label="fox_face">
+              🦊
+            </span>{' '}
+            Open the file you found in your favorite editor.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-lg font-semibold">Future development plans</h2>
+        <ul>
+          <li>
+            <span role="img" aria-label="languages">
+              🔤
+            </span>{' '}
+            More supported languages
+          </li>
+          <li>
+            <span role="img" aria-label="computer">
+              💻
+            </span>{' '}
+            Windows and Linux
+          </li>
+          <li>
+            <span role="img" aria-label="terminal">
+              🖥
+            </span>{' '}
+            CLI (command line interface)
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-lg font-semibold">Downloads</h2>
+        <ul>
+          <li>
+            <a
+              onClick={() => handleDownloadClick('mac-apple')}
+              href="https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/v0.3.0/Jomai_0.3.0_aarch64.dmg"
+            >
+              <span role="img" aria-label="pizza">
+                🍕
+              </span>{' '}
+              macOS (Apple Silicon) v0.2.0 beta
+            </a>
+          </li>
+          <li>
+            <a
+              onClick={() => handleDownloadClick('mac-intel')}
+              href="https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/v0.3.0/Jomai_0.3.0_x64.dmg"
+            >
+              <span role="img" aria-label="pancake">
+                🥞
+              </span>{' '}
+              macOS (Intel) v0.2.0 beta
+            </a>
+          </li>
+        </ul>
+        <p className="text-sm">
+          The beta version has an expiration date of approximately 30 days. The
+          expiration date will be extended when you install a new version.
+        </p>
+      </section>
+      <section>
+        <h2 className="text-md font-semibold">History</h2>
+        <ul className="text-md list-disc">
+          <li>
+            <h3>v0.3.0 (2022-10-23)</h3>
+            <ul>
+              <li>Exclude ~/Library from indexing</li>
+              <li>Some bug fixes</li>
+            </ul>
+          </li>
+          <li>
+            <h3>v0.2.0 (2022-10-05)</h3>
+            <ul>
+              <li>Some bug fixes</li>
+            </ul>
+          </li>
+          <li>
+            <h3>v0.1.0 (2022-09-30)</h3>
+            <ul>
+              <li>Initial release</li>
+            </ul>
+          </li>
+        </ul>
+        <p className="text-sm">
+          The beta version has an expiration date of approximately 30 days. The
+          expiration date will be extended when you install a new version.
+        </p>
+      </section>
       <section className="border-t border-gray-300 bg-white py-8">
         <h2 className="text-lg font-semibold">Contact</h2>
         <form

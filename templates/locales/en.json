@@ -32,6 +32,9 @@
     "macOsIntel": "macOS (Intel) v0.2.0 beta",
     "note": "The beta version has an expiration date of approximately 30 days. The expiration date will be extended when you install a new version."
   },
+  "history": {
+    "title": "History"
+  },
   "contact": {
     "title": "Contact",
     "email": "Mail address",
