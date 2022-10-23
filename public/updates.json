@@ -1,15 +1,15 @@
 {
   "version": "v0.2.0",
-  "notes": "bug fixes and UI design improvements",
+  "notes": "Exclude ~/Library | some bug fixes",
   "pub_date": "2022-10-05T08:44:00Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVjhZdGhXZEc3TzdDZktGV2hrTFFVRVpBTngxaDFZSi9OeE9SRnF3OUVlWlU1V2FURGlac2k0eHdFRGNlSy92TUxscWV2R3FpczdiUFJ3L0tScVJjM2l2cnhUUENCdVFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjY0OTU3OTE3CWZpbGU6Sm9tYWkuYXBwLnRhci5negpZNFdoNzNlaVRLdm5oYnBZQUZBd1BaYWJGWGtRNDVyaTJJWmh4OW81NjB5dnpSdGZYWUUxblZibWsreEg0K29DOUVUd2h6SDlrdmRBQkxOME9LNE1BUT09Cg==",
-      "url": "https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/v0.2.0/Jomai_0.2.0_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVjhZdGhXZEc3TytDNGo3dkZleXFvdjZwanJuQXl1Q1A1M254Y0hldHdmSmxTVVpmQkY5eEpuVk1STjI5L1czcXljTE1oTTBOVjZxL0pMUGhyR0J6SXpBZ283MVkwMlFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjY2NDk0NTMyCWZpbGU6Sm9tYWkuYXBwLnRhci5negpQRlJWM01CV1d1azNvRUErUlF5UDFmUXVXaytHc0pjR3dzb1BCYTZSVkJxanpqMG81UkhkRWJWMCtDK2tiY3k4UVc1Skszeisyc2tOMUxsK0lvMEZDUT09Cg==",
+      "url": "https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/v0.3.0/Jomai_0.3.0_x64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVjhZdGhXZEc3T3dKampHWVhLSWlnNjRseGxsR3prN0RySWpScDg3d0dhWTlZdmQvd0xtNk51b2ozQk5aeE0xNXZPM3FBZ3ZuMDdkc3VZY0Q3Sk9UU2xiR1NLVXg2bmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjY0OTU3NzA4CWZpbGU6Sm9tYWkuYXBwLnRhci5negpkaWJLK1FtcUJJMjJDd2lQcWFXck5MOU41S3E0eWwvRHFXVGk1aWNveW1ST00yUXRGMG5kRzFoaWJCRlUxTlNjNUg5NXc5MHpOaDhKbFBZSzlPZ3NBZz09Cg==",
-      "url": "https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/v0.2.0/Jomai_0.2.0_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVjhZdGhXZEc3T3p0bGpPQVV0VE1PZktPZ1ZIRVBIckdhRzRwa0srODZvWDJwLzJtQXBEc1JVTEw5cGFmOEpOWWZTWnJKVkcrcW5YdUJLOHFnRWZhUTE5bERwZVZWUHd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjY2NDk0NzY2CWZpbGU6Sm9tYWkuYXBwLnRhci5nego1SlFrU3BBQXRBZXJyU2F1L3NTeitwTE8yVWo4NmFYMjNVSlYvSENSeFBObzBBdHZpektMK2RkaGt6M2oxT2JpallVT1RXc0ZOdjNpT2treDlLM3dBZz09Cg==",
+      "url": "https://jomai-artifacts-382046072211.s3.ap-northeast-1.amazonaws.com/v0.3.0/Jomai_0.3.0_aarch64.app.tar.gz"
     }
   }
 }
