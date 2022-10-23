@@ -189,11 +189,6 @@ const Index = () => {
             </ul>
           </li>
         </ul>
-        <p className="text-sm">
-          The beta version has an expiration date of approximately 200 days from
-          the release date. The expiration date will be extended when you
-          install a new version.
-        </p>
       </section>
       <section className="border-t border-gray-300 bg-white py-8">
         <h2 className="text-lg font-semibold">Contact</h2>

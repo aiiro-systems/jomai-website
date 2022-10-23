@@ -154,7 +154,7 @@ const Index = () => {
         </ul>
         <p className="text-sm">
           ※
-          ベータ版につきリリース日から約200日程度の使用期限があります。新しいバージョンをインストールすると期限が延長されます。
+          ベータ版はリリース日から約200日程度の使用期限があります。新しいバージョンをインストールすると期限が延長されます。
         </p>
       </section>
       <section>
@@ -180,10 +180,6 @@ const Index = () => {
             </ul>
           </li>
         </ul>
-        <p className="text-sm">
-          ※
-          ベータ版につきリリース日から約200日程度の使用期限があります。新しいバージョンをインストールすると期限が延長されます。
-        </p>
       </section>
       <section className="border-t border-gray-300 bg-white py-8">
         <h2 className="text-lg font-semibold">お問合せ</h2>
