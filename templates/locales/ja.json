@@ -27,10 +27,10 @@
     "cliSupport": "CLI(コマンドラインインターフェース)の提供"
   },
   "downloads": {
-    "title": "ダウンロード",
-    "macOsAppleSilicon": "macOS (Appleシリコン) v0.2.0 ベータ版",
-    "macOsIntel": "macOS (Intel) v0.2.0 ベータ版",
-    "note": "※ ベータ版につき約30日間の使用期限があります。新しいバージョンをインストールすると期限が延長されます。"
+    "title": "ダウンロード (ベータ版)",
+    "macOsAppleSilicon": "macOS (Appleシリコン)",
+    "macOsIntel": "macOS (Intel)",
+    "note": "※ ベータ版につきリリース日から約200日程度の使用期限があります。新しいバージョンをインストールすると期限が延長されます。"
   },
   "history": {
     "title": "更新履歴"

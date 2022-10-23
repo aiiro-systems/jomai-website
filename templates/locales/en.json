@@ -27,10 +27,10 @@
     "cliSupport": "CLI (command line interface)"
   },
   "downloads": {
-    "title": "Downloads",
-    "macOsAppleSilicon": "macOS (Apple Silicon) v0.2.0 beta",
-    "macOsIntel": "macOS (Intel) v0.2.0 beta",
-    "note": "The beta version has an expiration date of approximately 30 days. The expiration date will be extended when you install a new version."
+    "title": "Downloads (beta version)",
+    "macOsAppleSilicon": "macOS (Apple Silicon)",
+    "macOsIntel": "macOS (Intel)",
+    "note": "The beta version has an expiration date of approximately 200 days from the release date. The expiration date will be extended when you install a new version."
   },
   "history": {
     "title": "History"

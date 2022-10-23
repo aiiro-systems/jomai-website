@@ -127,7 +127,7 @@ const Index = () => {
         </ul>
       </section>
       <section>
-        <h2 className="text-lg font-semibold">ダウンロード</h2>
+        <h2 className="text-lg font-semibold">ダウンロード (ベータ版)</h2>
         <ul>
           <li>
             <a
@@ -137,7 +137,7 @@ const Index = () => {
               <span role="img" aria-label="pizza">
                 🍕
               </span>{' '}
-              macOS (Appleシリコン) v0.2.0 ベータ版
+              macOS (Appleシリコン)
             </a>
           </li>
           <li>
@@ -148,13 +148,13 @@ const Index = () => {
               <span role="img" aria-label="pancake">
                 🥞
               </span>{' '}
-              macOS (Intel) v0.2.0 ベータ版
+              macOS (Intel)
             </a>
           </li>
         </ul>
         <p className="text-sm">
           ※
-          ベータ版につき約30日間の使用期限があります。新しいバージョンをインストールすると期限が延長されます。
+          ベータ版につきリリース日から約200日程度の使用期限があります。新しいバージョンをインストールすると期限が延長されます。
         </p>
       </section>
       <section>
@@ -182,7 +182,7 @@ const Index = () => {
         </ul>
         <p className="text-sm">
           ※
-          ベータ版につき約30日間の使用期限があります。新しいバージョンをインストールすると期限が延長されます。
+          ベータ版につきリリース日から約200日程度の使用期限があります。新しいバージョンをインストールすると期限が延長されます。
         </p>
       </section>
       <section className="border-t border-gray-300 bg-white py-8">

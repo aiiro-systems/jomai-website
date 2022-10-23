@@ -135,7 +135,7 @@ const Index = () => {
         </ul>
       </section>
       <section>
-        <h2 className="text-lg font-semibold">Downloads</h2>
+        <h2 className="text-lg font-semibold">Downloads (beta version)</h2>
         <ul>
           <li>
             <a
@@ -145,7 +145,7 @@ const Index = () => {
               <span role="img" aria-label="pizza">
                 🍕
               </span>{' '}
-              macOS (Apple Silicon) v0.2.0 beta
+              macOS (Apple Silicon)
             </a>
           </li>
           <li>
@@ -156,13 +156,14 @@ const Index = () => {
               <span role="img" aria-label="pancake">
                 🥞
               </span>{' '}
-              macOS (Intel) v0.2.0 beta
+              macOS (Intel)
             </a>
           </li>
         </ul>
         <p className="text-sm">
-          The beta version has an expiration date of approximately 30 days. The
-          expiration date will be extended when you install a new version.
+          The beta version has an expiration date of approximately 200 days from
+          the release date. The expiration date will be extended when you
+          install a new version.
         </p>
       </section>
       <section>
@@ -189,8 +190,9 @@ const Index = () => {
           </li>
         </ul>
         <p className="text-sm">
-          The beta version has an expiration date of approximately 30 days. The
-          expiration date will be extended when you install a new version.
+          The beta version has an expiration date of approximately 200 days from
+          the release date. The expiration date will be extended when you
+          install a new version.
         </p>
       </section>
       <section className="border-t border-gray-300 bg-white py-8">
